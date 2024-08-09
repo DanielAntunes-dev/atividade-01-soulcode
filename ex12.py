@@ -2,7 +2,7 @@ pesquisa = {}
 satisfeitos = []
 insatisfeitos = []
 
-for x in range(5):
+for x in range(2):
   nome = input(f"Digite o nome do participante {x+1}: ")
   
   while True:
@@ -23,5 +23,5 @@ totalSatisfeitos = len(satisfeitos)
 totalInsatisfeitos = len(insatisfeitos)
 
 print(pesquisa)
-print(f"Total de participantes satisfeitos: {totalSatisfeitos}:  {" ".join(satisfeitos)}")
-print(f"Total de participantes satisfeitos: {totalInsatisfeitos}:  {" ".join(insatisfeitos)}")
+print(f"Total de participantes satisfeitos: {totalSatisfeitos}:  {" ,".join(satisfeitos)}")
+print(f"Total de participantes satisfeitos: {totalInsatisfeitos}:  {" ,".join(insatisfeitos)}")
