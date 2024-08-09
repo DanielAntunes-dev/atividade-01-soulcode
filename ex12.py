@@ -2,7 +2,7 @@ pesquisa = {}
 satisfeitos = []
 insatisfeitos = []
 
-for x in range(2):
+for x in range(5):
   nome = input(f"Digite o nome do participante {x+1}: ")
   
   while True:
