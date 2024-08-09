@@ -2,7 +2,7 @@
 nome = input("Digite seu nome: ")
 idade = int(input("Digite sua idade: "))
 peso = float(input("Digite seu peso: "))
-altura = float(input("Digite sua alwtura: "))
+altura = float(input("Digite sua altura: "))
 
 
 while True:

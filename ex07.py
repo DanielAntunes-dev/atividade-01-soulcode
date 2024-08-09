@@ -1,7 +1,7 @@
 # 7.1
 
-cliente = ("Daniel", 37, 110, 1.90,)
-nome, idade, peso, altura = cliente
+tuplaCliente = ("Daniel", 37, 110, 1.90,)
+nome, idade, peso, altura = tuplaCliente
 
 print(f"Nome: {nome}")
 print(f"Idade: {idade}")
@@ -13,8 +13,8 @@ print(f"Altura: {altura:.2f}m")
 
 email = "daniel@email.com"
 
-addEmailCliente = cliente + (email,)
-n, i, p, a, e = addEmailCliente
+novaTuplaCliente = tuplaCliente + (email,)
+n, i, p, a, e = novaTuplaCliente
 
 print('_______________________________')
 print(f"Nome: {n}")
